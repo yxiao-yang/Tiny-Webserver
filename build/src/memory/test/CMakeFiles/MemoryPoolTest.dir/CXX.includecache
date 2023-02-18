@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/memory/MemoryPool.h
+
+/home/podest/tiny-network/src/memory/test/MemoryPoolTest.cc
+iostream
+-
+vector
+-
+chrono
+-
+stdio.h
+-
+stdlib.h
+-
+MemoryPool.h
+/home/podest/tiny-network/src/memory/test/MemoryPool.h
+
